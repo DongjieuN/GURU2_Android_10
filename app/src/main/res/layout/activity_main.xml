@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/edtGeofenceZone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:hint="원하는 지역"
+            android:inputType="text"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/edtGeofenceRadius"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="반경 크기"
+            android:inputType="number" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnUpdateGeoFenceZone"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:text="검색"
+            android:textSize="12sp"
+            app:backgroundTint="#B9CEAC" />
+
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        tools:context=".MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/modify"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="#B9CEAC"
+            android:ems="6"
+            android:text="회원정보 수정"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="655dp" />
+
+        <Button
+            android:id="@+id/sos"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:backgroundTint="#FF0000"
+            android:drawableLeft="@drawable/sos"
+            android:text="SOS 긴급\n신고"
+            tools:layout_editor_absoluteX="228dp"
+            tools:layout_editor_absoluteY="655dp" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

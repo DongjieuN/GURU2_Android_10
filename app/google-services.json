@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1035417569310",
+    "firebase_url": "https://guru-758ad-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "guru-758ad",
+    "storage_bucket": "guru-758ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035417569310:android:827eb7123fc19042c4860f",
+        "android_client_info": {
+          "package_name": "com.example.guru2_android_10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035417569310-th9204s5ikpr9hrf0rj1b90uoo5hm76t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guru2_android_10",
+            "certificate_hash": "8703eacd3aa02f58972744cd0ff837fa97ff0d1e"
+          }
+        },
+        {
+          "client_id": "1035417569310-honk88s6vjc43ff0qtk1aik83aoiq5j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDkhIiGNSoZb8MsDPoWWxuzSUjU52na8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035417569310-honk88s6vjc43ff0qtk1aik83aoiq5j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
